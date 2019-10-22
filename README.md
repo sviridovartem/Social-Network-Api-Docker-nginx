@@ -18,6 +18,7 @@ Prod version:
 1. Build  and run image: `$ docker-compose -f docker-compose.prod.yml up -d --build`
 2. Make migrations: `$ docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
 `
+
 To see result Navigate to `http://localhost:1337/`.
 
 To stop container:
